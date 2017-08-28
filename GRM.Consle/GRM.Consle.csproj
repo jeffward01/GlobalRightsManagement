@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application.cs" />
     <Compile Include="Configuration\ContainerConfig.cs" />
+    <Compile Include="Configuration\RegisterServices.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Logging\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GRM.UI-Inter\GRM.UI-Inter.csproj">
+      <Project>{7AA5595B-C257-47F5-B5E5-3C3AE794FA15}</Project>
+      <Name>GRM.UI-Inter</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GRM.UI_Inter.Managers
 {
-    class DisplayManager
+    public class DisplayManager
     {
+        private readonly 
     }
 }
