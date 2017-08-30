@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GRM.UI_Inter.About
 {
@@ -11,7 +7,8 @@ namespace GRM.UI_Inter.About
         public void DisplayAbout()
         {
             CommonMethods.WriteLine("About GRM");
-            CommonMethods.SpaceLg();
+            CommonMethods.Line();
+            CommonMethods.Space();
             CommonMethods.WriteLine("GRM is Global Rights Management system that manages contracts with Music Artists and Distrubuition Partners.");
             CommonMethods.Space();
             CommonMethods.WriteLine("GRM allows users to upload and save contracts with Music Artists and Distrubuition Partners.  The User can then determine which products are available for a given partner on a given date.");
@@ -30,9 +27,7 @@ namespace GRM.UI_Inter.About
             CommonMethods.Line();
             CommonMethods.WriteLine("Press any key to return to main menu");
             Console.ReadLine();
-
-
+            Console.Clear();
         }
-
     }
 }

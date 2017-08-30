@@ -1,0 +1,5 @@
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Models\bin\Debug\GRM.Models.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Models\bin\Debug\GRM.Models.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Models\obj\Debug\GRM.Models.csprojResolveAssemblyReference.cache
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Models\obj\Debug\GRM.Models.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Models\obj\Debug\GRM.Models.pdb

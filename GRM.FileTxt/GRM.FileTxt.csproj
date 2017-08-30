@@ -46,6 +46,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\FileService.cs" />
+    <Compile Include="Service\IFileService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Managers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GRM.Models\GRM.Models.csproj">
+      <Project>{08f0164d-3a31-4d96-99c6-fc8c90d179b3}</Project>
+      <Name>GRM.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

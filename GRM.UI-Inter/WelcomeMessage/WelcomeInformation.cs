@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using GRM.UI_Inter.About;
+using GRM.UI_Inter.MusicContracts;
+using GRM.UI_Inter.PartnerContracts;
 
 namespace GRM.UI_Inter.WelcomeMessage
 {
-    public class WelcomeInformation
+    public class WelcomeInformation : IWelcomeInformation
     {
 
         private readonly IAboutPage _aboutPage;
+        private readonly IMusicContractPage _musicContractPage;
+        private readonly IPartnerContractPage _partnerContractPage;
 
-        public WelcomeInformation(IAboutPage aboutPage)
+        public WelcomeInformation(IAboutPage aboutPage, IMusicContractPage musicContract, IPartnerContractPage partnerContractPage)
         {
-            aboutPage = _aboutPage;
+            _aboutPage = aboutPage;
+            _musicContractPage = musicContract;
+            _partnerContractPage = partnerContractPage;
         }
 
 
@@ -25,6 +32,8 @@ namespace GRM.UI_Inter.WelcomeMessage
         {
             Console.Clear();
             CommonMethods.WriteLine("Please enter an option to continue");
+            CommonMethods.Line();
+            CommonMethods.Space();
             CommonMethods.WriteLine("Enter 1 to find available products for a partenr on a given date");
             CommonMethods.WriteLine("Enter 2 to upload or manage Music Contracts");
             CommonMethods.WriteLine("Enter 3 to upload or manage Distribution Partner Contracts");
@@ -40,7 +49,7 @@ namespace GRM.UI_Inter.WelcomeMessage
             if (!testForValidInput(input))
             {
                 Console.Clear();
-                GetHomeScreenInput();
+                HomeMenuScreen();
             }
 
             var userChoice = getInt(input);
@@ -53,16 +62,17 @@ namespace GRM.UI_Inter.WelcomeMessage
                     }
                 case 2:
                     {
-                        System.Console.WriteLine("Manage Music Contracts");
+                        _musicContractPage.DisplayMusicContractWelcome();
                         break;
                     }
                 case 3:
                     {
-                        System.Console.WriteLine("Manage Distribution Contracts");
+                        _partnerContractPage.DisplayDistroPartnerContractsWelcome();
                         break;
                     }
                 case 4:
                     {
+                        Console.Clear();
                         _aboutPage.DisplayAbout();
                         HomeMenuScreen();
                         break;
@@ -74,8 +84,8 @@ namespace GRM.UI_Inter.WelcomeMessage
                          break;
                     }
                 default:
-                    {
-                        System.Console.WriteLine("----");
+                {
+                    HomeMenuScreen();
                         break;
                     }
             }
@@ -83,16 +93,18 @@ namespace GRM.UI_Inter.WelcomeMessage
 
         private bool testForValidInput(string input)
         {
+            var result = false;
             //return false
             //If more than 1 Char
             if (input.Length != 1)
             {
-                return false;
+                result = false;
             }
-            else if (input.All(Char.IsLetter))
+            else if (!input.All(Char.IsLetter))
             {
-                return false;
+                result = true;
             }
+            return result;
         }
 
         private bool lettersPresent(string myString)

@@ -1,0 +1,9 @@
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\obj\Debug\GRM.UI-Inter.csprojResolveAssemblyReference.cache
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\bin\Debug\GRM.UI-Inter.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\bin\Debug\GRM.UI-Inter.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\bin\Debug\GRM.Models.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\bin\Debug\GRM.Models.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\obj\Debug\GRM.UI-Inter.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\obj\Debug\GRM.UI-Inter.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\bin\Debug\GRM.FileTxt.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.UI-Inter\bin\Debug\GRM.FileTxt.pdb

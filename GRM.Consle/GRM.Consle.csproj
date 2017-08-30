@@ -35,6 +35,10 @@
     <Reference Include="Autofac, Version=4.6.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.4.6.1\lib\net45\Autofac.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Build.Utilities.v4.0" />
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.4.12\lib\net45\NLog.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +52,8 @@
     <Compile Include="Application.cs" />
     <Compile Include="Configuration\ContainerConfig.cs" />
     <Compile Include="Configuration\RegisterServices.cs" />
+    <Compile Include="IApplication.cs" />
+    <Compile Include="Logging\GrmLogManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,10 +61,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Logging\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\GRM.FileTxt\GRM.FileTxt.csproj">
+      <Project>{b054f5da-cad9-4935-9bb4-684c65c156ad}</Project>
+      <Name>GRM.FileTxt</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GRM.UI-Inter\GRM.UI-Inter.csproj">
       <Project>{7AA5595B-C257-47F5-B5E5-3C3AE794FA15}</Project>
       <Name>GRM.UI-Inter</Name>

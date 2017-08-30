@@ -1,0 +1,7 @@
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.FileTxt\bin\Debug\GRM.FileTxt.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.FileTxt\bin\Debug\GRM.FileTxt.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.FileTxt\obj\Debug\GRM.FileTxt.csprojResolveAssemblyReference.cache
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.FileTxt\obj\Debug\GRM.FileTxt.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.FileTxt\obj\Debug\GRM.FileTxt.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.FileTxt\bin\Debug\GRM.Models.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.FileTxt\bin\Debug\GRM.Models.pdb

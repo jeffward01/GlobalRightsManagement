@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,18 +50,26 @@
     <Compile Include="About\IAboutPage.cs" />
     <Compile Include="CommonMethods.cs" />
     <Compile Include="Managers\DisplayManager.cs" />
+    <Compile Include="Managers\IDisplayManager.cs" />
+    <Compile Include="MusicContracts\IMusicContractPage.cs" />
+    <Compile Include="MusicContracts\MusicContractPage.cs" />
+    <Compile Include="PartnerContracts\IPartnerContractPage.cs" />
+    <Compile Include="PartnerContracts\PartnerContractPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WelcomeMessage\IWelcomeInformation.cs" />
     <Compile Include="WelcomeMessage\WelcomeInformation.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GRM.FileTxt\GRM.FileTxt.csproj">
+      <Project>{b054f5da-cad9-4935-9bb4-684c65c156ad}</Project>
+      <Name>GRM.FileTxt</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GRM.Models\GRM.Models.csproj">
       <Project>{08f0164d-3a31-4d96-99c6-fc8c90d179b3}</Project>
       <Name>GRM.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MusicContracts\" />
-    <Folder Include="PartnerContracts\" />
     <Folder Include="SearchForProducts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

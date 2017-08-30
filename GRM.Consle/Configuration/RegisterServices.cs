@@ -4,7 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
+using GRM.FileTxt.Service;
 using GRM.UI_Inter.About;
+using GRM.UI_Inter.Managers;
+using GRM.UI_Inter.MusicContracts;
+using GRM.UI_Inter.PartnerContracts;
+using GRM.UI_Inter.WelcomeMessage;
 
 namespace GRM.Consle.Configuration
 {
@@ -22,12 +27,20 @@ namespace GRM.Consle.Configuration
 
 
             //Managers
+            builder.RegisterType<DisplayManager>().As<IDisplayManager>();
 
 
             //Services
+            builder.RegisterType<FileService>().As<IFileService>();
+            
 
             //Views
             builder.RegisterType<AboutPage>().As<IAboutPage>();
+            builder.RegisterType<MusicContractPage>().As<IMusicContractPage>();
+            builder.RegisterType<PartnerContractPage>().As<IPartnerContractPage>();
+            builder.RegisterType<WelcomeInformation>().As<IWelcomeInformation>();
+
+            
 
 
             //Repositories
@@ -37,3 +50,4 @@ namespace GRM.Consle.Configuration
         }
     }
 }
+

@@ -45,7 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Managers\DisplayManager.cs" />
+    <Compile Include="Managers\IDisplayManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GRM.UI-Inter\GRM.UI-Inter.csproj">
+      <Project>{7AA5595B-C257-47F5-B5E5-3C3AE794FA15}</Project>
+      <Name>GRM.UI-Inter</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

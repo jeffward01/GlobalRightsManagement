@@ -1,0 +1,16 @@
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\obj\Debug\GRM.Consle.csprojResolveAssemblyReference.cache
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.Consle.exe.config
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.Consle.exe
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.Consle.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\Autofac.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.UI-Inter.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\NLog.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.Models.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.UI-Inter.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\Autofac.xml
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\NLog.xml
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.Models.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\obj\Debug\GRM.Consle.exe
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\obj\Debug\GRM.Consle.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.FileTxt.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Consle\bin\Debug\GRM.FileTxt.pdb

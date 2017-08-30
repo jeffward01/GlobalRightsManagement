@@ -1,0 +1,9 @@
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\bin\Debug\GRM.Business.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\bin\Debug\GRM.Business.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\obj\Debug\GRM.Business.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\obj\Debug\GRM.Business.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\bin\Debug\GRM.UI-Inter.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\bin\Debug\GRM.Models.dll
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\bin\Debug\GRM.UI-Inter.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\bin\Debug\GRM.Models.pdb
+C:\Dev\projects\GlobalRightsManagement\GlobalRightsManagement\GRM.Business\obj\Debug\GRM.Business.csprojResolveAssemblyReference.cache
